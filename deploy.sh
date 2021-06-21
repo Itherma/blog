@@ -13,7 +13,7 @@ cd docs/.vuepress/dist
 # echo 'b.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=https://github.com/Itherma/blog.git
+  githubUrl=git@github.com:Itherma/blog.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://Itherma:${GITHUB_TOKEN}@github.com:Itherma/blog.git
