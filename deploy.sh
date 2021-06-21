@@ -16,7 +16,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Itherma/blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://Itherma:${GITHUB_TOKEN}@github.com:Itherma/blog.git
+  githubUrl=https://Itherma:${GITHUB_TOKEN}@github.com/Itherma/blog.git
   git config --global user.name "Itherma"
   git config --global user.email "1227971544@qq.com"
 fi
