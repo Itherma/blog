@@ -49,20 +49,6 @@ module.exports = [
       showInMobile: false, // whether to display on the mobile side, default: false.
     },
   ],
-  // [
-  //   'demo-block',
-  //   {
-  //     // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
-  //     settings: {
-  //       // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
-  //       // cssLib: ['http://xxx'], // 在线示例中的css依赖
-  //       // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
-  //       jsfiddle: false, // 是否显示 jsfiddle 链接
-  //       codepen: true, // 是否显示 codepen 链接
-  //       horizontal: false, // 是否展示为横向样式
-  //     },
-  //   },
-  // ],
   [
     'vuepress-plugin-zooming', // 放大图片
     {
@@ -73,21 +59,15 @@ module.exports = [
     },
   ],
   [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
-    },
-  ],
-  [
     'vuepress-plugin-comment', // 评论
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+        clientID: 'a417e6739c3e29314574',
+        clientSecret: '8a3a47ee307ba93e83e79a273971a6206ac6f55c',
         repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        owner: 'itherma', // GitHub仓库所有者
+        admin: ['itherma'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
