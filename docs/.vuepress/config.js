@@ -22,4 +22,10 @@ module.exports = {
   head,
   plugins,
   themeConfig,
+
+  repo: 'Itherma/blog', // Github仓库地址 https://github.com/Itherma/blog.git
+  docsDir: 'docs', // .md文件放在了docs目录下
+  editLinks: true, // 启用编辑链接
+  editLinkText: '在github上编辑',
+
 }
