@@ -179,6 +179,7 @@ import BloggerBar from '@theme/components/BloggerBar'
 import CategoriesBar from '@theme/components/CategoriesBar'
 import TagsBar from '@theme/components/TagsBar'
 
+
 const MOBILE_DESKTOP_BREAKPOINT = 720 // refer to config.styl
 
 BScroll.use(Slide)
@@ -212,13 +213,14 @@ export default {
     bannerBgStyle () {
       let bannerBg = this.homeData.bannerBg
       if (!bannerBg || bannerBg === 'auto') { // 默认
-        if (this.$themeConfig.bodyBgImg) { // 当有bodyBgImg时，不显示背景
+        if (this.$themeConfig.bodyBgImg && this.$themeConfig.bodyBgImg.length) { // 当有bodyBgImg时，不显示背景
           return ''
         } else { // 网格纹背景
-          return 'background: rgb(40,40,45) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=)'
+          return `background: url(https://cdn.jsdelivr.net/gh/Itherma/blog/images/RE4FqCL_1920x1080.jpg) top center / cover no-repeat`
+          // 'background: rgb(40,40,45) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=)'
         }
       } else if (bannerBg === 'none') { // 无背景
-        if (this.$themeConfig.bodyBgImg) {
+        if (this.$themeConfig.bodyBgImg && this.$themeConfig.bodyBgImg.length) {
           return ''
         } else {
           return 'background: var(--mainBg);color: var(--textColor)'
