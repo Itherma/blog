@@ -28,23 +28,23 @@ module.exports = [
       },
     ],
   },
-  // {
-  //   text: '页面',
-  //   link: '/ui/',
-  //   items: [
-  //     { text: 'HTML', link: '/pages/html/' },
-  //     { text: 'CSS', link: '/pages/style/' },
-  //   ],
-  // },
-  // {
-  //   text: '技术',
-  //   link: '/technology/',
-  //   items: [
-  //     { text: '技术文档', link: '/pages/techDocs/' },
-  //     { text: 'GitHub技巧', link: '/pages/githubUseage/' },
-  //     { text: 'Nodejs', link: '/pages/nodejs/' },
-  //   ],
-  // },
+  {
+    text: '页面',
+    link: '/ui/',
+    items: [
+      { text: 'HTML', link: '/pages/html/' },
+      { text: 'CSS', link: '/pages/style/' },
+    ],
+  },
+  {
+    text: '技术',
+    link: '/technology/',
+    items: [
+      { text: '技术文档', link: '/pages/techDocs/' },
+      { text: 'GitHub技巧', link: '/pages/githubUseage/' },
+      { text: 'Nodejs', link: '/pages/nodejs/' },
+    ],
+  },
   // {
   //   text: '更多',
   //   link: '/more/',
@@ -56,23 +56,23 @@ module.exports = [
   //     // { text: '友情链接', link: '/friends/' },
   //   ],
   // },
-  // { text: '关于', link: '/about/' },
-  // {
-  //   text: '收藏',
-  //   link: '/pages/techSite/',
-  //   items: [
-  //     { text: '网站', link: '/pages/techSite/' },
-  //     { text: '资源', link: '/pages/usefulSite/' },
-  //     { text: 'Vue资源', link: '/pages/vueSource/' },
-  //   ],
-  // },
-  // {
-  //   text: '索引',
-  //   link: '/archives/',
-  //   items: [
-  //     { text: '分类', link: '/categories/' },
-  //     { text: '标签', link: '/tags/' },
-  //     { text: '归档', link: '/archives/' },
-  //   ],
-  // },
+  { text: '关于', link: '/about/' },
+  {
+    text: '收藏',
+    link: '/pages/techSite/',
+    items: [
+      { text: '网站', link: '/pages/techSite/' },
+      { text: '资源', link: '/pages/usefulSite/' },
+      { text: 'Vue资源', link: '/pages/vueSource/' },
+    ],
+  },
+  {
+    text: '索引',
+    link: '/archives/',
+    items: [
+      { text: '分类', link: '/categories/' },
+      { text: '标签', link: '/tags/' },
+      { text: '归档', link: '/archives/' },
+    ],
+  },
 ]

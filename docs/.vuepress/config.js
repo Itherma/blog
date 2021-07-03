@@ -27,5 +27,11 @@ module.exports = {
   docsDir: 'docs', // .md文件放在了docs目录下
   editLinks: true, // 启用编辑链接
   editLinkText: '在github上编辑',
-
+  // 语言配置
+  locales: {
+    // 作为特例，默认语言可以使用 '/' 作为其路径。
+    '/': {
+      lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+    }
+  }
 }
