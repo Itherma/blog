@@ -95,13 +95,13 @@ module.exports = [
         enable: true,
         // 模型名称(default: hibiki)>>>取值请参考： miku shizuku epsilon2_1 chitose haru/01 haru/02 z16 tororo hijiki
         // https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA
-        model: 'miku',
+        model: 'hibiki',
         display: {
-          position: "right", // 显示位置：left/right(default: 'right')
-          width: 275, // 模型的长度(default: 135)
-          height: 500, // 模型的高度(default: 300)
+          // position: "right", // 显示位置：left/right(default: 'right')
+          width: 162, // 模型的长度(default: 135)
+          height: 360, // 模型的高度(default: 300)
           hOffset: 30, //  水平偏移(default: 65)
-          vOffset: -60, //  垂直偏移(default: 0)
+          vOffset: -20, //  垂直偏移(default: 0)
         },
         mobile: {
           show: false // 是否在移动设备上显示(default: false)
