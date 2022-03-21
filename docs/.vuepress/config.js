@@ -7,6 +7,7 @@
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
+const { resolve } = require('path')
 
 module.exports = {
   // theme: 'vdoing', // 使用依赖包主题
@@ -32,6 +33,14 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+    }
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@as': resolve(__dirname, './assets'),
+        '@imgs': resolve(__dirname, './assets/imgs')
+      }
     }
   }
 }

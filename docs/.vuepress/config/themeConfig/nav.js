@@ -24,6 +24,7 @@ module.exports = [
           { text: '《Git》学习笔记', link: '/note/git/' },
           { text: 'TypeScript笔记', link: '/pages/typeScript/' },
           { text: 'JS设计模式总结笔记', link: '/pages/codeDesign/' },
+          { text: '《渲染器原理》', link: '/note/render/' },
         ],
       },
     ],
