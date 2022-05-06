@@ -22,9 +22,9 @@ module.exports = [
           { text: '《Vue》笔记', link: '/note/vue/' },
           { text: '《TypeScript 从零实现 axios》', ink: '/note/typescript-axios/', },
           { text: '《Git》学习笔记', link: '/note/git/' },
+          { text: '《渲染器原理》', link: '/note/render/' },
           { text: 'TypeScript笔记', link: '/pages/typeScript/' },
           { text: 'JS设计模式总结笔记', link: '/pages/codeDesign/' },
-          { text: '《渲染器原理》', link: '/note/render/' },
         ],
       },
     ],
@@ -46,17 +46,6 @@ module.exports = [
       { text: 'Nodejs', link: '/pages/nodejs/' },
     ],
   },
-  // {
-  //   text: '更多',
-  //   link: '/more/',
-  //   items: [
-  //     { text: '学习', link: '/pages/learningMethod/' },
-  //     { text: '面试', link: '/pages/interview/' },
-  //     { text: '心情杂货', link: '/pages/feelings/' },
-  //     { text: '实用技巧', link: '/pages/practicalSkills/' },
-  //     // { text: '友情链接', link: '/friends/' },
-  //   ],
-  // },
   { text: '关于', link: '/about/' },
   {
     text: '收藏',

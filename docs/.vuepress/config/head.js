@@ -10,7 +10,7 @@ module.exports = [
     },
   ],
   ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
-  ['meta', { name: 'theme-color', content: '#129eff' }], // 移动浏览器主题颜色
+  ['meta', { name: 'theme-color', content: '#4fc08d' }], // 移动浏览器主题颜色
   // [
   //   'script',
   //   {

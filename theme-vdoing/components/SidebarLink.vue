@@ -113,7 +113,7 @@ a.sidebar-link
     font-weight 600
     color $accentColor
     border-left-color $accentColor
-    background-color #e9edf8d1
+    // background-color #e9edf8d1
   .sidebar-group &
     padding-left 2rem
   .sidebar-sub-headers &
