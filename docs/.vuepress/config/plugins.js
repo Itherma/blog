@@ -66,8 +66,8 @@ module.exports = [
         clientID: 'a417e6739c3e29314574',
         clientSecret: '8a3a47ee307ba93e83e79a273971a6206ac6f55c',
         repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'itherma', // GitHub仓库所有者
-        admin: ['itherma'], // 对仓库有写权限的人
+        owner: 'sunnyxujian', // GitHub仓库所有者
+        admin: ['sunnyxujian'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

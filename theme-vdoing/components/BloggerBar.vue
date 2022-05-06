@@ -1,11 +1,11 @@
 <template>
   <aside class="blogger-wrapper card-box">
     <div class="avatar">
-      <img
+      <!-- <img
         :src="blogger.avatar"
         alt="头像"
         title="我好看吗"
-      />
+      /> -->
     </div>
     <div
       class="icons"

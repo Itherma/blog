@@ -70,7 +70,7 @@ export default {
       color var(--textColor)
       opacity 0.8
       font-size 0.95rem
-      line-height 0.95rem
+      line-height 1rem
       position relative
       transition all .2s
       border-left 2px solid transparent
@@ -93,10 +93,10 @@ export default {
         background-color var(--textColor)
         color var(--mainBg)
         border-radius 8px
-        padding 0 0.13rem
+        padding 0 0.15rem
         min-width 1rem
-        height 1rem
-        line-height 1rem
+        height 1.2rem
+        line-height 1.2rem
         font-size 0.6rem
         text-align center
         opacity 0.6
