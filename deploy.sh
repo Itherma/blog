@@ -11,6 +11,7 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'xujian.site' > CNAME
+
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:sunnyxujian/blog.git
@@ -20,6 +21,7 @@ else
   git config --global user.name "sunnyxujian"
   git config --global user.email "1227971544@qq.com"
 fi
+
 git init
 git add -A
 git commit -m "${msg}"
