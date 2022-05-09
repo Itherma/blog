@@ -49,7 +49,9 @@ async function main() {
   }
 
   const filePath = path.join(__dirname, '..', ...config.path); // 要批量修改的文件路径
+  console.log(filePath)
   const files = readFileList(filePath); // 读取所有md文件数据
+
 
   files.forEach(file => {
     let dataStr = fs.readFileSync(file.filePath, 'utf8');// 读取每个md文件的内容

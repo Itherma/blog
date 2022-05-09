@@ -1,7 +1,7 @@
 ---
 title: TypeScript学习笔记
 date: 2020-10-08 13:02:48
-permalink: /pages/typeScript/
+permalink: /notes/typeScript/
 categories: 
   - 前端
   - 学习笔记
