@@ -19,7 +19,8 @@
             :alt="homeData.heroAlt"
           />
           <h1 v-if="homeData.heroText" id="main-title">
-            {{ homeData.heroText }}
+            <!-- {{ homeData.heroText }} -->
+            Code <b class="gradient">More</b> Create
           </h1>
           <p v-if="homeData.tagline" class="description">
             {{ homeData.tagline }}
@@ -139,7 +140,7 @@
           />
         </template>
 
-        <Content class="theme-vdoing-content custom card-box" />
+        <!-- <Content class="theme-vdoing-content custom card-box" /> -->
       </template>
 
       <template #mainRight>
@@ -220,7 +221,7 @@ export default {
           return ''
         } else {
           // 网格纹背景
-          return `background: url(https://cdn.jsdelivr.net/gh/sunnyxujian/blog/images/RE4FqCL_1920x1080.jpg) top center / cover no-repeat`
+          return `background: url(https://raw.githubusercontent.com/sunnyxujian/image-store/main/wallhaven-z8dg9y.png) center center / cover no-repeat`
           // 'background: rgb(40,40,45) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABOSURBVFhH7c6xCQAgDAVRR9A6E4hLu4uLiWJ7tSnuQcIvr2TRYsw3/zOGGEOMIcYQY4gxxBhiDDGGGEOMIcYQY4gxxBhiDLkx52W4Gn1tuslCtHJvL54AAAAASUVORK5CYII=)'
         }
       } else if (bannerBg === 'none') {
@@ -381,6 +382,7 @@ export default {
       .hero {
         text-align: center;
         margin-top: 3rem;
+        transform: translateX(-5rem);
 
         img {
           max-width: 100%;
@@ -391,7 +393,15 @@ export default {
 
         h1 {
           margin: 0;
-          font-size: 3.2rem;
+          font-size: 5rem;
+          font-weight: bolder;
+          color: #213547;
+          .gradient {
+          color: var(--c-brand);
+          background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          }
         }
 
         .description, .action {
@@ -400,7 +410,7 @@ export default {
 
         .description {
           max-width: 40rem;
-          font-size: 1.1rem;
+          font-size: 2rem;
           line-height: 1.3;
           opacity: 0.9;
         }

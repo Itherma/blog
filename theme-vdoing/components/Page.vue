@@ -20,7 +20,7 @@
           </h1>
           <slot name="top" v-if="isShowSlotT" />
 
-          <Content class="theme-vdoing-content" />
+          <Content class="theme-vdoing-content 1234" />
         </div>
         <slot name="bottom" v-if="isShowSlotB" />
         <PageEdit />

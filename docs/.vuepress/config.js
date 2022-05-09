@@ -24,7 +24,7 @@ module.exports = {
   plugins,
   themeConfig,
 
-  repo: 'sunnyxujian/blog', // Github仓库地址 https://github.com/sunnyxujian/blog.git
+  repo: 'sunnyxujian/sunnyxujian.github.io', // Github仓库地址 https://github.com/sunnyxujian/blog.git
   docsDir: 'docs', // .md文件放在了docs目录下
   editLinks: true, // 启用编辑链接
   editLinkText: '在github上编辑',
