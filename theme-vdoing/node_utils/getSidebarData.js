@@ -121,7 +121,7 @@ function mapTocToSidebar (root, collapsable, prefix = '') {
     if (sidebar[order]) { // 判断序号是否已经存在
       log(chalk.yellow(`warning: 该文件 "${file}" 的序号在同一级别中重复出现，将会被覆盖`))
     }
-    if (stat.isDirectory()) { // 是文件夹目录
+    if (stat.isDirectory() && filename.indexOf('目录页') < 0) { // 排除目录文件夹
       sidebar[order] = {
         title,
         collapsable, // 是否可折叠，默认true
@@ -146,7 +146,6 @@ function mapTocToSidebar (root, collapsable, prefix = '') {
         title = data.title
       }
       sidebar[order] = [prefix + filename, title, permalink];  // [<路径>, <标题>, <永久链接>]
-
     }
   })
 

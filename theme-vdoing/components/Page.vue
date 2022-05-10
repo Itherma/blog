@@ -19,7 +19,6 @@
             {{ this.$page.title }}
           </h1>
           <slot name="top" v-if="isShowSlotT" />
-
           <Content class="theme-vdoing-content 1234" v-if="showToArticle" />
         </div>
         <slot name="bottom" v-if="isShowSlotB" />
