@@ -13,7 +13,7 @@
         <template v-for="(item, index) in getCatalogueList()">
           <dl v-if="type(item) === 'array'" :key="index" class="inline">
             <dt>
-              <router-link :to="item[2]">{{
+              <router-link class="catalogue-item" :to="item[2]">{{
                 `${index + 1}. ${item[1]}`
               }}</router-link>
             </dt>
@@ -181,6 +181,10 @@ dl, dd {
 
         a {
           width: 100%;
+        }
+
+        .catalogue-item {
+          width: 80%;
         }
       }
 

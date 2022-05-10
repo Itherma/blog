@@ -11,6 +11,7 @@ specifiers:
   vuepress: 1.8.0
   vuepress-plugin-baidu-autopush: ^1.0.1
   vuepress-plugin-baidu-tongji: ^1.0.1
+  vuepress-plugin-cat: ^1.0.3
   vuepress-plugin-comment: ^0.7.3
   vuepress-plugin-demo-block: ^0.7.2
   vuepress-plugin-demo-container: ^0.2.0
@@ -25,6 +26,7 @@ dependencies:
   axios: 0.21.4
   chalk: 4.1.2
   lodash: 4.17.21
+  vuepress-plugin-cat: 1.0.3
   vuepress-plugin-ribbon-animation: 1.1.3
 
 devDependencies:
@@ -9003,6 +9005,10 @@ packages:
   /vuepress-plugin-baidu-tongji/1.0.1:
     resolution: {integrity: sha512-AqEWeW2Kv9Fpi8CrbGmrUPEVcrjL/aNxjj2U6DVqeMx/2OD1NCM3fFnhOlCtsyzIDtPs0itKzNA4yPbSA5MDIg==}
     dev: true
+
+  /vuepress-plugin-cat/1.0.3:
+    resolution: {integrity: sha512-1tronr8K/02Qn7M/+cOa5zYGfY/qlWLAqJjpT3FKYX4BsHEn9KEDnjJ7t9SyCPKpV68e8IP6XJvPZYTQ0Qs90w==}
+    dev: false
 
   /vuepress-plugin-comment/0.7.3:
     resolution: {integrity: sha512-CvuBST37snmQGzGD5lMxyw0u2eXWKVPjegfuwlI2+CTs2qWarKX16dVHHLR8DVa/yL5UGT3VuoNETH/zEexl8A==}

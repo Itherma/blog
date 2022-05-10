@@ -8,15 +8,18 @@ module.exports = [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
         text: "JavaScript",
-        items: [{ text: "JavaScript", link: "/pages/javaScript/" }],
+        link: "/pages/0f6a0ac99b6",
+        // link: "/basic/javascript/",
       },
       {
         text: "CSS",
-        items: [{ text: "CSS", link: "/pages/javaScript/" }],
+        link: "/pages/c8f128/",
+        // link: "/basic/css/",
       },
       {
         text: "HTML和浏览器",
-        items: [{ text: "HTML和浏览器", link: "/pages/javaScript/" }],
+        link: "/pages/html",
+        // link: "/basic/html/",
       },
     ],
   },
@@ -24,27 +27,29 @@ module.exports = [
     text: "框架",
     link: "/framework/",
     items: [
-      { text: "Vue", link: "/pages/Vue/" },
-      { text: "Vue3", link: "/pages/Vue3/" },
-      { text: "React", link: "/pages/React/" },
+      { text: "Vue", link: "/pages/vue/" },
+      { text: "Vue3", link: "/pages/vue3/" },
+      { text: "React", link: "/pages/react/" },
     ],
   },
   {
     text: "工程化",
     link: "/engineering/",
     items: [
-      { text: "技术文档", link: "/pages/techDocs/" },
-      { text: "GitHub技巧", link: "/pages/githubUseage/" },
-      { text: "Nodejs", link: "/pages/nodejs/" },
+      { text: "基础知识", link: "/pages/modules/" },
+      { text: "webpack", link: "/pages/webpack/" },
     ],
   },
   {
     text: "前端进阶",
     link: "/advanced/",
     items: [
-      { text: "技术文档", link: "/pages/techDocs/" },
-      { text: "GitHub技巧", link: "/pages/githubUseage/" },
       { text: "Nodejs", link: "/pages/nodejs/" },
+      { text: "网络", link: "/pages/net/" },
+      { text: "TypeScript", link: "/pages/typescript/" },
+      { text: "架构设计", link: "/pages/codedesign/" },
+      { text: "性能优化", link: "/pages/optimize/" },
+      { text: "数据结构和算法", link: "/pages/algorithms/" },
     ],
   },
   {
