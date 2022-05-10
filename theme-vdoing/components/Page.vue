@@ -19,7 +19,7 @@
             {{ this.$page.title }}
           </h1>
           <slot name="top" v-if="isShowSlotT" />
-          <Content class="theme-vdoing-content 1234" v-if="showToArticle" />
+          <Content class="theme-vdoing-content" v-if="!$frontmatter.catalogue" />
         </div>
         <slot name="bottom" v-if="isShowSlotB" />
         <PageEdit />
@@ -98,10 +98,7 @@ export default {
     },
     isShowSlotB() {
       return this.getShowStatus('pageBshowMode')
-    },
-    showToArticle() {
-      return this.$frontmatter.article !== false
-    },
+    }
   },
   methods: {
     getShowStatus(prop) {
