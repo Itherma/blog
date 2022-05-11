@@ -38,6 +38,7 @@ module.exports = [
     items: [
       { text: "基础知识", link: "/engineering/modules/" },
       { text: "webpack", link: "/engineering/workflow/" },
+      { text: "其他", link: "/engineering/betterConsole/" },
     ],
   },
   {
@@ -70,7 +71,7 @@ module.exports = [
     items: [
       { text: "技术文档", link: "/pages/techDocs/" },
       { text: "GitHub技巧", link: "/pages/githubUseage/" },
-      { text: "Nodejs", link: "/pages/nodejs/" },
+      { text: "博客搭建", link: "/pages/41f87d890d0a02af/" },
     ],
   },
   {
