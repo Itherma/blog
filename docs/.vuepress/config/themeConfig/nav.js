@@ -8,17 +8,17 @@ module.exports = [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
         text: "JavaScript",
-        link: "/pages/0f6a0ac99b6",
+        link: "/pages/prototype/",
         // link: "/basic/javascript/",
       },
       {
         text: "CSS",
-        link: "/pages/c8f128/",
+        link: "/pages/shoucang/",
         // link: "/basic/css/",
       },
       {
         text: "HTML和浏览器",
-        link: "/pages/html",
+        link: "/pages/html/",
         // link: "/basic/html/",
       },
     ],
@@ -36,20 +36,20 @@ module.exports = [
     text: "工程化",
     link: "/engineering/",
     items: [
-      { text: "基础知识", link: "/pages/modules/" },
-      { text: "webpack", link: "/pages/webpack/" },
+      { text: "基础知识", link: "/engineering/modules/" },
+      { text: "webpack", link: "/engineering/workflow/" },
     ],
   },
   {
     text: "前端进阶",
     link: "/advanced/",
     items: [
-      { text: "Nodejs", link: "/pages/nodejs/" },
-      { text: "网络", link: "/pages/net/" },
-      { text: "TypeScript", link: "/pages/typescript/" },
-      { text: "架构设计", link: "/pages/codedesign/" },
-      { text: "性能优化", link: "/pages/optimize/" },
-      { text: "数据结构和算法", link: "/pages/algorithms/" },
+      { text: "Nodejs", link: "/advanced/nodejs/" },
+      { text: "网络", link: "/advanced/net/" },
+      { text: "TypeScript", link: "/advanced/typescript/" },
+      { text: "架构设计", link: "/advanced/codedesign/" },
+      { text: "性能优化", link: "/advanced/optimize/" },
+      { text: "数据结构和算法", link: "/advanced/algorithms/" },
     ],
   },
   {
