@@ -53,10 +53,9 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    // avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    avatar: '/blog/img/uomo.jpeg',
+    avatar: 'https://cdn.jsdelivr.net/gh/sunnyxujian/image-store/img/mona-loading-default.gif',
     name: 'xujian',
-    slogan: '我不怕千万人阻挡只怕自己投降',
+    slogan: '劝君惜取少年时。',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

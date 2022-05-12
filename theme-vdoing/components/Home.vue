@@ -382,7 +382,7 @@ export default {
       .hero {
         text-align: center;
         margin-top: 3rem;
-        transform: translateX(-5rem);
+        transform: translateX(-4rem);
 
         img {
           max-width: 100%;
@@ -615,6 +615,7 @@ export default {
     .banner {
       .banner-conent {
         .hero {
+          transform: translateX(0rem);
           h1 {
             font-size: 2.5rem;
           }
@@ -662,6 +663,7 @@ export default {
       padding-right: 1.5rem;
 
       .hero {
+        transform: translateX(0rem);
         img {
           max-height: 210px;
           margin: 2rem auto 1.2rem;
