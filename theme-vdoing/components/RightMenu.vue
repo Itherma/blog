@@ -85,7 +85,8 @@ export default {
     .right-menu-margin
       padding 0.3rem 0
       background var(--sidebarBg)
-      border-radius 5px
+      border-radius 6px
+      box-shadow 0 10px 20px rgba(#404080, 0.15)
       .right-menu-item
         border-color transparent
         &.active
