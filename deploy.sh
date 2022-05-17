@@ -14,10 +14,10 @@ echo 'xujian.site' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:sunnyxujian/github.io.git
+  githubUrl=git@github.com:sunnyxujian/blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://sunnyxujian:${GITHUB_TOKEN}@github.com/sunnyxujian/github.io.git
+  githubUrl=https://sunnyxujian:${GITHUB_TOKEN}@github.com/sunnyxujian/blog.git
   git config --global user.name "sunnyxujian"
   git config --global user.email "1227971544@qq.com"
 fi
