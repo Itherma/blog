@@ -39,6 +39,7 @@ module.exports = [
       { text: "基础知识", link: "/engineering/modules/" },
       { text: "webpack", link: "/engineering/workflow/" },
       { text: "rollup", link: "/engineering/rollup/" },
+      { text: "vite", link: "/engineering/vite/" },
       { text: "其他", link: "/engineering/betterConsole/" },
     ],
   },
