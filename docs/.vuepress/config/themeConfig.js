@@ -53,7 +53,7 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/sunnyxujian/image-store/img/mona-loading-default.gif',
+    avatar: 'https://xj-1253772569.file.myqcloud.com/img/mona-loading-default.gif',
     name: 'xujian',
     slogan: '劝君惜取少年时。',
   },
