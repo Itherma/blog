@@ -15,10 +15,10 @@ specifiers:
   vuepress-plugin-comment: ^0.7.3
   vuepress-plugin-demo-block: ^0.7.2
   vuepress-plugin-demo-container: ^0.2.0
+  vuepress-plugin-image-viewer: ^1.1.5
   vuepress-plugin-one-click-copy: ^1.0.2
   vuepress-plugin-ribbon-animation: ^1.1.3
   vuepress-plugin-thirdparty-search: ^1.0.2
-  vuepress-plugin-zooming: ^1.1.7
   vuepress-theme-vdoing: ^1.8.1
   yamljs: ^0.3.0
 
@@ -27,6 +27,7 @@ dependencies:
   chalk: 4.1.2
   lodash: 4.17.21
   vuepress-plugin-cat: 1.0.3
+  vuepress-plugin-image-viewer: 1.1.5_vuepress@1.8.0
   vuepress-plugin-ribbon-animation: 1.1.3
 
 devDependencies:
@@ -42,7 +43,6 @@ devDependencies:
   vuepress-plugin-demo-container: 0.2.0
   vuepress-plugin-one-click-copy: 1.0.6
   vuepress-plugin-thirdparty-search: 1.0.2
-  vuepress-plugin-zooming: 1.1.8
   vuepress-theme-vdoing: 1.11.3
   yamljs: 0.3.0
 
@@ -8911,6 +8911,10 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
+  /viewerjs/1.10.5:
+    resolution: {integrity: sha512-QwKrmXlSfKg5x4y74F/jicpHIRqBMMfHXyboOxHDi5n4XAaejjpalphPq4/HW6venQAoMiD57HpVwBk0JvqpSA==}
+    dev: false
+
   /vm-browserify/1.1.2:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==}
     dev: true
@@ -9041,6 +9045,16 @@ packages:
     resolution: {integrity: sha512-IXWZUc9+mErxjhBMRvhjHkGlXC3aXLS8wRV4kh4RZYAOVtb8nLv2fmpzwrSZrnIOXLGMcMTObdFruVzX9kBylw==}
     dev: true
 
+  /vuepress-plugin-image-viewer/1.1.5_vuepress@1.8.0:
+    resolution: {integrity: sha512-IqGb+WJIp56gStdLd7E7/pbQC6Vz7SrZbBURYQU00A+IPWTMXWD5eTH/toUXMlYX8PZptvxGSCSU+LyYIDZIug==}
+    peerDependencies:
+      vuepress: ^1.0.0
+    dependencies:
+      viewerjs: 1.10.5
+      vuepress: 1.8.0
+      vuepress-plugin-viewer: 1.0.0
+    dev: false
+
   /vuepress-plugin-one-click-copy/1.0.6:
     resolution: {integrity: sha512-apFCcsBwk9IEDm5HwD6dwor30rl8gr0VjPkmrQlFSR2KD7OjK3ZUwioeEvbrcAiZBi35V6YgndLAHksJXRfpnQ==}
     dev: true
@@ -9059,11 +9073,9 @@ packages:
     resolution: {integrity: sha512-qXAzHCsbe7fKdqZyI7cax6qtVZpqbW5TEp+NOwCzgN6IIrHc8vOkz+shCTvc+qzDgqE31+geT1lPFFX6LvbOFQ==}
     dev: true
 
-  /vuepress-plugin-zooming/1.1.8:
-    resolution: {integrity: sha512-QAspMEqzerd0n8z/oOL5a67V/QaFZyjSwfo86y6PWhDdVAeOLR7umJ7syQqJpMdN9EVxmAstuzbKHkRxWzL0NQ==}
-    dependencies:
-      zooming: 2.1.1
-    dev: true
+  /vuepress-plugin-viewer/1.0.0:
+    resolution: {integrity: sha512-w7BNTXDAJM+NGGeeZnnpjIlTE+pkSFgvLhlhlOn+0w6BQtiKwCxLLM3BYVvsJe47iDAWJAWNt4VAeBbTUP4adg==}
+    dev: false
 
   /vuepress-theme-vdoing/1.11.3:
     resolution: {integrity: sha512-QaDkLnlolUXNL7VX+lQzlJ+jGrrGHzyfl6/BElxL5t9dxvsgSxnwyjUOfKzkD+F8rJzJdCYwmymk5sWq+VWqvg==}
@@ -9470,8 +9482,4 @@ packages:
 
   /zepto/1.2.0:
     resolution: {integrity: sha1-4Se9nmb9hGvl6rSME5SIL3wOT5g=}
-    dev: true
-
-  /zooming/2.1.1:
-    resolution: {integrity: sha512-Z38dkZRQsFNBE67+xDBQLNKMs5J1Gc+s3/zO6iezTrC24VYLJV7YPBdBDJmiLhff5qa6Awxv4wsjqx3oYz2MYA==}
     dev: true
