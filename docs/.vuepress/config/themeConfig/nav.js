@@ -83,6 +83,7 @@ module.exports = [
       { text: "网站", link: "/pages/techSite/" },
       { text: "资源", link: "/pages/usefulSite/" },
       { text: "Vue资源", link: "/pages/vueSource/" },
+      { text: "友情链接", link: "/archives/" },
     ],
   },
   {
@@ -94,5 +95,12 @@ module.exports = [
       { text: "归档", link: "/archives/" },
     ],
   },
-  { text: "关于", link: "/about/" },
+  {
+    text: "友链&关于",
+    link: "/friends/",
+    items: [
+      { text: "友链", link: "/friends/" },
+      { text: "关于", link: "/about/" },
+    ],
+  },
 ];
