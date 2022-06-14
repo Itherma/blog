@@ -32,7 +32,7 @@
     "chalk": "4.1.2",
     "lodash": "^4.17.21",
     "vuepress-plugin-cat": "^1.0.3",
-    "vuepress-plugin-image-viewer": "^1.1.5",
+    "vuepress-plugin-image-viewer": "^1.1.7",
     "vuepress-plugin-ribbon-animation": "^1.1.3"
   }
 }

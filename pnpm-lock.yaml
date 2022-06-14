@@ -15,7 +15,7 @@ specifiers:
   vuepress-plugin-comment: ^0.7.3
   vuepress-plugin-demo-block: ^0.7.2
   vuepress-plugin-demo-container: ^0.2.0
-  vuepress-plugin-image-viewer: ^1.1.5
+  vuepress-plugin-image-viewer: ^1.1.7
   vuepress-plugin-one-click-copy: ^1.0.2
   vuepress-plugin-ribbon-animation: ^1.1.3
   vuepress-plugin-thirdparty-search: ^1.0.2
@@ -27,7 +27,7 @@ dependencies:
   chalk: 4.1.2
   lodash: 4.17.21
   vuepress-plugin-cat: 1.0.3
-  vuepress-plugin-image-viewer: 1.1.5_vuepress@1.8.0
+  vuepress-plugin-image-viewer: 1.1.7_vuepress@1.8.0
   vuepress-plugin-ribbon-animation: 1.1.3
 
 devDependencies:
@@ -9045,8 +9045,8 @@ packages:
     resolution: {integrity: sha512-IXWZUc9+mErxjhBMRvhjHkGlXC3aXLS8wRV4kh4RZYAOVtb8nLv2fmpzwrSZrnIOXLGMcMTObdFruVzX9kBylw==}
     dev: true
 
-  /vuepress-plugin-image-viewer/1.1.5_vuepress@1.8.0:
-    resolution: {integrity: sha512-IqGb+WJIp56gStdLd7E7/pbQC6Vz7SrZbBURYQU00A+IPWTMXWD5eTH/toUXMlYX8PZptvxGSCSU+LyYIDZIug==}
+  /vuepress-plugin-image-viewer/1.1.7_vuepress@1.8.0:
+    resolution: {integrity: sha512-9RILPjec6Iseifsgh5nxI3jWpMpZhDkSYnDoS5p2lTdn+nUa64ugwqRMc+Zh/+CMfY+t3wRBwqBUTy4oBl6dUQ==}
     peerDependencies:
       vuepress: ^1.0.0
     dependencies:

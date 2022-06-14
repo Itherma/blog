@@ -64,7 +64,10 @@ module.exports = [
   [
     "vuepress-plugin-image-viewer", // 放大图片
     {
-      selector: ".theme-vdoing-content", // 排除class是no-zoom的图片
+      selector: ".theme-vdoing-content", // 在这个class容器下的img标签才有放大功能
+      options: {
+        excludeClass: "no-zoom", // 要排除的class
+      },
     },
   ],
   [
