@@ -134,18 +134,20 @@ function mapTocToSidebar (root, collapsable, prefix = '') {
       }
       const contentStr = fs.readFileSync(file, 'utf8') // 读取md文件内容，返回字符串
       const { data } = matter(contentStr) // 解析出front matter数据
-      const permalink = data.permalink || ''
-
-      // 目录页对应的永久链接，用于给面包屑提供链接
-      const { pageComponent } = data
-      if (pageComponent && pageComponent.name === "Catalogue") {
-        catalogueData[title] = permalink
+      if (data.publish === false) {
+        log(chalk.yellow(`warning: 该文件 "${file}" 的 publish为false，将不会发布`))
+      } else {
+        const permalink = data.permalink || ''
+        // 目录页对应的永久链接，用于给面包屑提供链接
+        const { pageComponent } = data
+        if (pageComponent && pageComponent.name === "Catalogue") {
+          catalogueData[title] = permalink
+        }
+        if (data.title) {
+          title = data.title
+        }
+        sidebar[order] = [prefix + filename, title, permalink];  // [<路径>, <标题>, <永久链接>]
       }
-
-      if (data.title) {
-        title = data.title
-      }
-      sidebar[order] = [prefix + filename, title, permalink];  // [<路径>, <标题>, <永久链接>]
     }
   })
 

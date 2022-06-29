@@ -145,7 +145,6 @@ export default {
       } else {
         posts = this.$sortPosts
       }
-
       this.sortPosts = posts.slice((currentPage - 1) * perPage, currentPage * perPage)
     },
     // getElementToPageTop(el) {
